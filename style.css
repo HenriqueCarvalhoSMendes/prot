@@ -1,0 +1,411 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle at 80.37% 50%, #fcfa63 0, #e7fb61 8.33%, #cffb62 16.67%, #b5fa65 25%, #97f86a 33.33%, #72f670 41.67%, #3cf278 50%, #00ee82 58.33%, #00ea8e 66.67%, #00e69d 75%, #00e2ad 83.33%, #00dfbe 91.67%, #00dcd0 100%);
+    height: 100vh;
+}
+
+.menu-button{
+    visibility: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.63);
+    
+}
+
+.logo img {
+    margin-top: 20px;
+    margin-left: 80px;
+    position: absolute;
+    width: 10%;
+}
+
+.dropdown-menu a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 60%;
+    display: inline-block;
+    
+}
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-size: 3vh;
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 60%;
+    display: inline-block;
+    
+}
+.dropdown-menu a:hover{
+    color: green;    
+}
+
+.mus h1 {
+    
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 20vh;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    top: 35px;
+    
+}
+
+.mus button {
+    cursor: pointer;
+    font-size: 18px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-weight: normal;
+    background-color: rgb(79, 4, 255);
+    position: relative;
+    left: 35%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    border: 1px solid rgb(122, 68, 247);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.mus #premium {
+    background-color: transparent;
+    border: 3px solid white;
+    left: 36%;
+}
+
+.mus button:hover {
+    animation: all.1s;
+    background-color: rgb(67, 22, 172)
+}
+
+.mus #premium:hover {
+    transition: ease-out;
+    animation: all.10s;
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    ;
+}
+
+
+.wsh {
+    
+    margin-top: 30px;
+    background-color: white;
+    width: 100%;
+    position: relative;
+    height: auto;
+    
+}
+
+.wsh img {
+    
+    position: absolute;
+    width: 20%;
+    display: block;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#zl {
+    padding-left: 21%;
+}
+
+#ts {
+    padding-top: 21%;
+}
+
+#d {
+    padding-left: 21%;
+    padding-top: 21%;
+}
+
+
+/*text*/
+
+
+.wsh h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: blueviolet;
+    padding-top: 1%;
+    padding-left: 48%;
+    
+}
+#msc h2 {
+    margin-top: -20px;
+    font-size: 40px;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 48%;
+}
+
+#msc p {
+    margin-top: -20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 48%;
+}
+
+.pl h2 {
+    margin-top: -20px;
+    font-size: 40px;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 48%;
+}
+
+.pl p{
+    margin-top: -20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 48%;
+}
+.nl h2 {
+    margin-top: -20px;
+    font-size: 40px;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 48%;
+}
+.nl p{
+    margin-top: -20px;
+    margin-top: -20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 48%;
+    padding-bottom: 170px;
+}
+
+
+.tres img {
+    
+    top: 170%;
+    width: 25%;
+    transform: rotate(35deg);
+    transform-origin: left top 0;
+    position: absolute;
+    left: 58%;
+}
+
+.tres #pl2 {
+    top: 200%;
+    left: 79%
+}
+
+#fa {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-size: 50px;
+    padding-left: 45px;
+    color: white;
+}
+#bu {
+    color: rgb(43, 119, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: 45px;
+}
+
+#but {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    padding-left: 45px;
+}
+
+#bu {
+    color: rgb(43, 119, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: 45px;
+}
+
+#nav {
+    color: rgb(43, 119, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: 45px;
+}
+
+#navt {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    padding-left: 45px;
+}
+
+#dec {
+    color: rgb(43, 119, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: 45px;
+}
+
+#dect {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    padding-left: 45px;
+}
+
+.footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 200px;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+
+#logobottom {
+    padding-top: 40px;
+    position: relative;
+    padding-left: 30px;
+    width: 10%;
+}
+
+#company {
+    font-weight: lighter;
+    color: grey;
+    position: absolute;
+    top: 35px;
+    left: 150px;
+}
+
+#company li {
+    cursor: pointer;
+    letter-spacing: 3px;
+    left: 10px;
+    color: white;
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 20px;
+    top: 30px;
+    
+}
+
+#company li:hover {
+    color: green;
+}
+
+#comuni {
+    font-weight: lighter;
+    color: grey;
+    position: absolute;
+    top: 35px;
+    left: 350px;
+}
+
+#comuni li {
+    cursor: pointer;
+    letter-spacing: 3px;
+    left: 10px;
+    color: white;
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 20px;
+    top: 30px;
+}
+
+#comuni li:hover {
+    color: green;
+}
+
+#lu {
+    font-weight: lighter;
+    color: grey;
+    position: absolute;
+    top: 35px;
+    left: 600px;
+}
+
+#lu li {
+    cursor: pointer;
+    letter-spacing: 3px;
+    left: 10px;
+    color: white;
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 20px;
+    top: 30px;
+}
+
+#lu li:hover {
+    color: green;
+}
+
+#inst {
+    cursor: pointer;
+    margin-top: 30px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 50px;
+    left: 70%;
+    color: black;
+    background-color: grey;
+    position: absolute;
+}
+#tt {
+    cursor: pointer;
+    margin-top: 30px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 50px;
+    left: 77%;
+    color: black;
+    background-color: grey;
+    position: absolute;
+}
+
+#fb {
+    cursor: pointer;
+    margin-top: 30px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 50px;
+    left: 84%;
+    color: black;
+    background-color: grey;
+    position: absolute;
+}
+
+.footer p {
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    left: 70%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color:rgba(0, 128, 0, 0.267);
+}
